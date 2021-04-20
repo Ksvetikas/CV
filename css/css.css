@@ -1,0 +1,115 @@
+body {
+  background: #99ccff;
+  font-family: 'Open Sans', sans-serif;
+  color: #002e4d;
+  height: auto;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+h4,
+ p,
+ .section div,
+ .exp-container div {
+  padding-left: 25px;
+}
+
+img {
+  width: 160px;
+  height: auto;
+  border: 1px solid #99d6ff;
+}
+
+button {
+  border: none;
+  width: 120px;
+  height: 25px;
+  background: #002e4d;
+  color: #ffffe6;
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 0 0 30px 20px;
+}
+
+#contacts {
+  height: 150px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
+
+.experience-container,
+.cv-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.cv-container {
+  width: 800px;
+  height: auto;
+  background: #ffffe6;
+  position: absolute;
+  left: calc(50% - 450px);
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 15px #888888 inset;
+}
+
+.section,
+.exp-container,
+.experience-container {
+  width: 80%;
+  height: auto;
+  border: 1px solid #99d6ff;
+  text-align: left;
+  padding: 30px;
+  margin: 5px 0 5px 0;
+}
+
+.exp-container {
+  border: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.cv-container,
+.section,
+.experience-container,
+button,
+img {
+  border-radius: 20px;
+}
+
+.section div,
+.exp-container div {
+  border-bottom: 1px solid #99d6ff;
+  padding-bottom: 20px;
+}
+
+button:hover {
+  background: #4d0000;
+}
+
+h2:hover,
+h3:hover,
+h4:hover {
+  color: #4d0000;
+}
+
+.section:hover,
+img:hover {
+  border: 1px solid #4d0000;
+}
+
+.section div:hover {
+  border-bottom: 1px solid #4d0000;
+}
