@@ -64,10 +64,10 @@ descriptions[4] = "Darbe buvau atsakingas už kokybišką minkštų baldų apmu�
   }else {
 
       const listContainer = document.getElementsByClassName('exp-container');
-
       listContainer[0].querySelectorAll('*').forEach(n => n.remove());
   }
 }
+
 
 let action = 1;
 
